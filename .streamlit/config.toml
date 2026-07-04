@@ -1,0 +1,14 @@
+[theme]
+# Pin a single dark theme so the app always looks the same and the
+# Light / Dark / "Use system setting" switcher has nothing to toggle.
+base = "dark"
+primaryColor = "#00ED64"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#1A1F2E"
+textColor = "#E8ECF1"
+font = "serif"
+
+[client]
+# "minimal" hides the top-right toolbar menu, which is where the theme
+# selector (Light / Dark / Use system setting) lives — removing the option.
+toolbarMode = "minimal"
